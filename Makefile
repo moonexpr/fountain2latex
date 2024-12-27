@@ -3,7 +3,6 @@
 
 PROJECT_NAME := fountain2latex
 
-
 EXE_EXT :=
 
 # JOC: I don't know how to responsibly update the version of base in the dependency file, so here's this madness:
@@ -87,6 +86,3 @@ clean:
 deepclean: clean
 	-rm -rf $(COMPILED_DIR) dist-newstyle
 	-rm *.pdf
-
-flags:
-	@echo CABAL_FLAGS: $(CABAL_FLAGS)
